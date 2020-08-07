@@ -1,0 +1,312 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#body {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    width: 99%;
+    justify-content: space-evenly;
+    padding: 20px 0px 50px 10px;
+}
+
+.bod {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    /* background-color: blue; */
+    margin: 10px 5px 0px 0px;
+    list-style: none;
+    /* height: 500px; */
+    border-Radius: 50px;
+    /* padding: 10px 20px 20px 20px; */
+}
+
+.bod1 {
+    background: #EFFDF6;
+    /* Fill: Solid #D94F00; */
+    padding: 40px 35px 50px 10px;
+}
+
+.bod1Img {
+    padding: 0px 0px 0px 10px;
+}
+
+.bod1Text1 {
+    font-family: Euclid Circular A;
+    font-style: Bold;
+    font-size: 32px;
+    color: #101326;
+    padding: 0px 0px 0px 20px;
+}
+
+.bod1Text2 {
+    color: #10132661;
+    font-family: Euclid Circular A;
+    font-style: Regular;
+    font-size: 16px;
+    padding: 21px 0px 30px 20px;
+}
+
+#content1 {
+    display: flex;
+    flex-direction: column;
+    background-color: #E0FBED;
+    border-radius: 24px;
+    justify-content: flex-start;
+    width: 90%;
+    align-items: flex-start;
+    padding: 30px 0px 30px 17px;
+    margin: 0px 0px 30px 20px;
+}
+
+.content1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 0px 10px 0px;
+}
+
+#content1 ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 5px;
+}
+
+.c1txt1 {
+    font-family: Euclid Circular A;
+    font-style: Medium;
+    font-size: 12px;
+    padding: 0px 0px 5px 0px;
+}
+
+.c1txt2 {
+    font-family: Euclid Circular A;
+    font-style: Bold;
+    font-size: 14px;
+}
+
+#select {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 0px 40px 20px;
+}
+
+#select a {
+    background-color: #68F3A8;
+    width: 95%;
+    padding: 20px 0px 20px 0px;
+    text-decoration: none;
+    border-radius: 24px;
+    font-family: Euclid Circular A;
+    font-style: Bold;
+    font-size: 19px;
+    color: #101326;
+}
+
+#blank {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+
+#blank div {
+    background-color: #101326;
+    width: 70%;
+    padding: 15px 0px 20px 0px;
+    text-decoration: none;
+    border-radius: 24px;
+    font-family: Euclid Circular A;
+    font-style: Bold;
+    font-size: 19px;
+    color: #101326;
+}
+
+.bod2 {
+    background-color: #EFFDF6;
+    padding: 52px 32px 20px 32px;
+}
+
+#gImg {
+    padding: 0px 0px 32px 0px;
+}
+
+#fSearch {
+    width: 100%;
+    padding: 10px 0px 32px 0px;
+}
+
+#fSearch input {
+    width: 100%;
+    padding: 15px 20px 15px 40px;
+    border-radius: 16px;
+    border: 2px solid rgb(242, 248, 245);
+    /* background: ; */
+    mix-blend-mode: normal;
+    /* opacity: 0.1; */
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #8D9F9E;
+    mix-blend-mode: normal;
+    background: #E1FBEE url("./img/Group\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: 20px 15px;
+}
+
+#fBanks {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.fBank1,
+.fBank2 {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
+}
+
+.fBank1 div,
+.fBank2 div {
+    /* background-color: black; */
+    padding: 39px;
+    width: 50%;
+    justify-content: center;
+    /* align-items: center; */
+    display: flex;
+    border-radius: 24px;
+}
+
+.fBank2 {
+    padding: 24px 0px 0px 0px;
+}
+
+.fBank4 {
+    margin: 0px 0px 0px 23px;
+    /* background-color: #083e9e33; */
+    mix-blend-mode: normal;
+    /* opacity: 0.2; */
+}
+
+.bod3 {
+    background: #D94F00;
+    padding: 52px 32px 20px 32px;
+}
+
+.bod3Text1 {
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 41px;
+    color: #FFFFFF;
+    padding: 24px 0px 0px 0px;
+}
+
+#bod3Inp form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 24px 0px 32px 0px;
+}
+
+.bod3inp {
+    /* width: 0%; */
+    padding: 30px 20px 13px 23px;
+    mix-blend-mode: normal;
+    border-radius: 24px;
+    border: none;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+}
+
+.bod3inp1 {
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    background: #DD6223 url("./img/GTBank\ User\ ID_.png");
+    background-repeat: no-repeat;
+    background-position: 25px 15px;
+}
+
+.bod3inp2 {
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    background: #DD6223 url("./img/Password.png");
+    background-repeat: no-repeat;
+    background-position: 25px 15px;
+    margin: 16px 0px 0px 0px;
+}
+
+#bod3Inp button {
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+    font-family: Euclid Circular A;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+    color: #202020;
+    border-radius: 24px;
+    border: none;
+    margin: 16px 0px 0px 0px;
+}
+
+.bod4 {
+    background: #EFFDF6;
+    /* border-radius: 50px; */
+}
+
+#bod4Top {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#topRight {
+    /* justify-self: left; */
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+    box-shadow: 0px 12px 53px rgba(0, 0, 0, 0.0876038);
+    border-radius: 50px 0px 25px 0px;
+    width: 64px;
+    height: 208px;
+}
+
+#centerImg {
+    background-image: url("img/Group.png");
+    /* background-color: black; */
+    width: 80%;
+    background-repeat: no-repeat;
+    margin: 100px 0px 0px 0px;
+}
+
+#topLeft {
+    /* justify-self: right; */
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+    box-shadow: 0px 12px 53px rgba(0, 0, 0, 0.0876038);
+    border-radius: 0px 50px 0px 24px;
+    width: 64px;
+    height: 265px;
+}
