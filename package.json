@@ -1,0 +1,19 @@
+{
+  "name": "monochallenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/walleyjs/monochanllenge.git"
+  },
+  "author": "walley",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/walleyjs/monochanllenge/issues"
+  },
+  "homepage": "https://github.com/walleyjs/monochanllenge#readme"
+}
