@@ -3,6 +3,10 @@
     margin: 0px;
 }
 
+body {
+    font-family: 'Euclid Circular';
+}
+
 #body {
     display: flex;
     flex-direction: row;
@@ -35,18 +39,21 @@
 }
 
 .bod1Text1 {
-    font-family: Euclid Circular A;
-    font-style: Bold;
+    font-style: normal;
+    font-weight: bold;
     font-size: 32px;
     color: #101326;
     padding: 0px 0px 0px 20px;
 }
 
 .bod1Text2 {
-    color: #10132661;
-    font-family: Euclid Circular A;
-    font-style: Regular;
-    font-size: 16px;
+    color: #101326;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    /* font-family: Euclid Circular A; */
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
     padding: 21px 0px 30px 20px;
 }
 
@@ -77,16 +84,24 @@
 }
 
 .c1txt1 {
-    font-family: Euclid Circular A;
-    font-style: Medium;
-    font-size: 12px;
+    /* font-family: Euclid Circular A; */
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 15px;
+    color: #101326;
+    mix-blend-mode: normal;
+    opacity: 0.4;
     padding: 0px 0px 5px 0px;
 }
 
 .c1txt2 {
-    font-family: Euclid Circular A;
-    font-style: Bold;
-    font-size: 14px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    /* identical to box height */
+    color: #101326;
 }
 
 #select {
@@ -104,31 +119,36 @@
     padding: 20px 0px 20px 0px;
     text-decoration: none;
     border-radius: 24px;
-    font-family: Euclid Circular A;
-    font-style: Bold;
+    font-style: normal;
+    font-weight: bold;
     font-size: 19px;
+    line-height: 24px;
     color: #101326;
 }
 
 #blank {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    text-align: center;
-}
-
-#blank div {
+    align-self: center;
     background-color: #101326;
     width: 70%;
-    padding: 15px 0px 20px 0px;
+    margin: 0px 0px 0px 20px;
+    padding: 20px 0px 20px 0px;
     text-decoration: none;
     border-radius: 24px;
-    font-family: Euclid Circular A;
-    font-style: Bold;
-    font-size: 19px;
     color: #101326;
 }
+
+
+/* #blank div {
+    background-color: #101326;
+    width: 70%;
+    padding: 20px 0px 20px 0px;
+    text-decoration: none;
+    border-radius: 24px;
+    color: #101326;
+} */
 
 .bod2 {
     background-color: #EFFDF6;
@@ -152,7 +172,7 @@
     /* background: ; */
     mix-blend-mode: normal;
     /* opacity: 0.1; */
-    font-family: Euclid Circular A;
+    /* font-family: Euclid Circular A; */
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -207,7 +227,7 @@
 }
 
 .bod3Text1 {
-    font-family: Euclid Circular A;
+    /* font-family: Euclid Circular A; */
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
@@ -234,7 +254,7 @@
 }
 
 .bod3inp1 {
-    font-family: Euclid Circular A;
+    /* font-family: Euclid Circular A; */
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -244,7 +264,7 @@
 }
 
 .bod3inp2 {
-    font-family: Euclid Circular A;
+    /* font-family: Euclid Circular A; */
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
@@ -258,7 +278,7 @@
     background-color: #FFFFFF;
     width: 100%;
     padding: 20px 0px 20px 0px;
-    font-family: Euclid Circular A;
+    /* font-family: Euclid Circular A; */
     font-style: normal;
     font-weight: bold;
     font-size: 19px;
@@ -270,43 +290,209 @@
 }
 
 .bod4 {
+    flex-direction: row;
     background: #EFFDF6;
     /* border-radius: 50px; */
-}
-
-#bod4Top {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
     justify-content: space-between;
 }
 
-#topRight {
+#left {
+    display: flex;
+    flex-direction: column;
+}
+
+#topleft {
+    display: flex;
+    flex-direction: column;
     /* justify-self: left; */
     background: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.4;
     box-shadow: 0px 12px 53px rgba(0, 0, 0, 0.0876038);
     border-radius: 50px 0px 25px 0px;
-    width: 64px;
+    width: 40px;
     height: 208px;
+    /* height: 180px; */
 }
 
-#centerImg {
-    background-image: url("img/Group.png");
-    /* background-color: black; */
-    width: 80%;
-    background-repeat: no-repeat;
-    margin: 100px 0px 0px 0px;
+#right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 
-#topLeft {
-    /* justify-self: right; */
+#topright {
     background: #FFFFFF;
     mix-blend-mode: normal;
     opacity: 0.4;
     box-shadow: 0px 12px 53px rgba(0, 0, 0, 0.0876038);
-    border-radius: 0px 50px 0px 24px;
-    width: 64px;
+    border-radius: 0px 50px 0px 25px;
+    width: 40px;
+    height: 265px;
+    /* height: 180px; */
+}
+
+#center {
+    display: flex;
+    flex-direction: column;
+    /* background-color: black; */
+    width: 72%;
+    padding: 150px 0px 0px 0px;
+}
+
+#centerBcgd {
+    display: flex;
+    align-self: center;
+    background-image: url("img/Group.png");
+    width: 166.01px;
+    height: 137.08px;
+    background-repeat: no-repeat;
+    /* background-position: -40px -16px; */
+    /* margin: 0px 50px 0px 0px; */
+}
+
+#centerBcgd img {
+    padding: 10px 0px 0px 20px;
+    width: 104px;
+    height: 104px;
+}
+
+#centerBody {
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    padding: 50px 0px 0px 0px;
+}
+
+#midlink {
+    padding: 10px 5px 0px 5px;
+}
+
+#actLinked {
+    /* font-family: Euclid Circular A; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 41px;
+    /* identical to box height */
+    text-align: center;
+    color: #101326;
+}
+
+#linkededMes {
+    /* font-family: Euclid Circular A; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 22px;
+    /* or 150% */
+    text-align: center;
+    color: #101326;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    padding: 0px 0px 40px 0px;
+}
+
+#contAct {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+#contAct a {
+    background-color: #68F3A8;
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+    text-decoration: none;
+    border-radius: 24px;
+    /* font-family: Euclid Circular A; */
+    font-weight: bold;
+    font-size: 16px;
+    color: #101326;
+}
+
+#bod4Bot {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: auto;
+    width: 85%;
+}
+
+#linkAaccount {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+#linkAaccount a {
+    background: #D9E6E1;
+    mix-blend-mode: normal;
+    border-radius: 19.2px;
+    width: 100%;
+    padding: 15px 0px 15px 0px;
+    text-decoration: none;
+    border-radius: 24px;
+    /* font-family: Euclid Circular A; */
+    font-weight: bold;
+    font-size: 12px;
+    color: #101326;
+}
+
+#blank2 {
+    align-self: center;
+    background-color: #101326;
+    width: 60%;
+    padding: 2px 0px 2px 0px;
+    text-decoration: none;
+    border-radius: 24px;
+    /* font-family: Euclid Circular A; */
+    color: #101326;
+    margin: 15px 0px 5px 0px;
+}
+
+#secLeft {
+    margin: 18px 0px 0px 0px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+    box-shadow: 0px 12px 53px rgba(0, 0, 0, 0.0876038);
+    border-radius: 0px 25px 25px 0px;
+    width: 14px;
     height: 265px;
 }
+
+#secRight {
+    margin: 60px 0px 0px 0px;
+    background: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.4;
+    box-shadow: 0px 12px 53px rgba(0, 0, 0, 0.0876038);
+    border-radius: 25px 0px 0px 25px;
+    width: 14px;
+    height: 265px;
+}
+
+
+/* #centerImg {
+    background-image: url("img/Group.png");
+    /* background-color: black; */
+
+
+/* width: 55%; */
+
+
+/* background-repeat: no-repeat; */
+
+
+/* height: 300px; */
+
+
+/* margin: 100px 0px 0px 0px; */
+
+
+/* } */
