@@ -28,6 +28,9 @@ body {
     /* padding: 10px 20px 20px 20px; */
 }
 
+
+/* section1 */
+
 .bod1 {
     background: #EFFDF6;
     /* Fill: Solid #D94F00; */
@@ -150,6 +153,12 @@ body {
     color: #101326;
 } */
 
+
+/* end of section1 */
+
+
+/* section 2 */
+
 .bod2 {
     background-color: #EFFDF6;
     padding: 52px 32px 20px 32px;
@@ -221,6 +230,12 @@ body {
     /* opacity: 0.2; */
 }
 
+
+/* end of sectiion 2 */
+
+
+/* section 3 */
+
 .bod3 {
     background: #D94F00;
     padding: 52px 32px 20px 32px;
@@ -288,6 +303,12 @@ body {
     border: none;
     margin: 16px 0px 0px 0px;
 }
+
+
+/* end of section 3 */
+
+
+/* section 4 */
 
 .bod4 {
     flex-direction: row;
@@ -478,21 +499,4 @@ body {
 }
 
 
-/* #centerImg {
-    background-image: url("img/Group.png");
-    /* background-color: black; */
-
-
-/* width: 55%; */
-
-
-/* background-repeat: no-repeat; */
-
-
-/* height: 300px; */
-
-
-/* margin: 100px 0px 0px 0px; */
-
-
-/* } */
+/* end of section 4 */
